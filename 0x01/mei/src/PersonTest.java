@@ -33,7 +33,7 @@ public class PersonTest {
         float salarayResult = person.calculateYearlySalary();
         float salaryExpected = 14400;
 
-        assertEquals(salaryExpected, salarayResult, 0.0);
+        assertEquals(salaryExpected, salarayResult);
     }
 
     @Test
